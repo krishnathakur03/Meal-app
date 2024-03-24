@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal App</title>
+    <link rel="shortcut icon" href="./logo/Chef logo 1.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8fc0d6d4a4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">
+                <i class="fa-solid fa-house"></i>
+                Home
+            </a>
+            <a>
+                <i id="sideMenu" class="fa-solid fa-bars"></i>
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <div id="searchBox">
+            <label for="search">Find Your Favourite Food</label>
+            <div>
+                <input type="search" name="search" id="search" placeholder="Search...">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+
+        <div id="details" class="hideDetails">
+            
+        </div>
+
+        <div id="results">
+            
+        </div>
+    </main>
+    
+    <aside id="sideBar" class="sideBarOff"> 
+        <nav>
+            <a>
+                Favourites
+            </a>
+            <a>
+                <i id="closeMenu" class="fa-solid fa-xmark"></i>
+            </a>
+        </nav>
+        <div id="favourites">
+
+        </div>
+    </aside>
+    <script src="index.js"></script>
+</body>
+</html>
