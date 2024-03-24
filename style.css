@@ -23,7 +23,7 @@ nav a {
     text-decoration: none;
 }
 main {
-    background-image: url('Designer1.png');
+    background-image: url('./asset/Designer1.png');
     background-repeat: no-repeat;
     background-size: cover;
     height: 90vh;
