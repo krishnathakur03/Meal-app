@@ -26,7 +26,7 @@ main {
     background-image: url('./asset/Designer1.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 90vh;
+    height: 96vh;
     overflow-y: auto;
     transition: filter 1.2s;
 }
@@ -131,6 +131,10 @@ main {
     display: flex;
 }
 
+#no-data {
+    margin-top: 40px;
+    font-size: 4rem;
+}
 #results{
     display: flex;
     flex-wrap: wrap;
