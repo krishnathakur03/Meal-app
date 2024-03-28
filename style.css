@@ -8,6 +8,9 @@ a {
     color: black;
     text-decoration: none;
 }
+.fa-solid, .fa-regular {
+    cursor: pointer;
+}
 nav{
     display: flex;
     flex-wrap: wrap;
